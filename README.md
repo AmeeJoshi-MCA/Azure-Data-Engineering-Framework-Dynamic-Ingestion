@@ -151,23 +151,14 @@ Each module solves a specific data engineering problem such as incremental datab
 
 ##  🧠 Skills Demonstrated
 
-- Azure Data Factory (Advanced)
-
-- Incremental / Delta Load Design
-
-- REST API Ingestion
-
-- Metadata-Driven Pipelines
-
-- Dynamic Schema Handling
-
-- Pipeline Orchestration
-
-- Monitoring & Alerting
-
-- CI/CD for Data Platforms
-
-- Cost & Performance Optimization
+| Module                | Problem Solved                   | Key Tech           |
+| --------------------- | -------------------------------- | ------------------ |
+| Incremental Loads     | Optimized delta ingestion        | ADF, SQL           |
+| API Pagination        | Scalably ingest third-party APIs | ADF, REST          |
+| Metadata-Driven Files | Multi-file ingestion             | ADF, Params        |
+| Schema Mapping        | Dynamic schema support           | ADF, JSON Mappings |
+| Monitoring            | Alerts & operational readiness   | ADF + Logic Apps   |
+| CI/CD                 | GitOps workflow                  | GitHub + ADF       |
 
   ---
 
