@@ -1,0 +1,21 @@
+{
+    "name": "ds_empty_json_source",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adf_pro_data_lake",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "empty.json",
+                "folderPath": "Monitor",
+                "fileSystem": "source"
+            }
+        },
+        "schema": {}
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

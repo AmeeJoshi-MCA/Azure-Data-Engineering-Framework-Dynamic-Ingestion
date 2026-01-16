@@ -1,0 +1,6 @@
+selected resource name:		Schedule pipeline
+selected resource type:		pipeline
+factory name:			adf-pro-data-factory
+factory location:		eastus
+subscription id:		6842eb80-0447-4d56-ae6a-298107fd959f
+time of download (UTC):		Fri, 16 Jan 2026 14:00:39 GMT

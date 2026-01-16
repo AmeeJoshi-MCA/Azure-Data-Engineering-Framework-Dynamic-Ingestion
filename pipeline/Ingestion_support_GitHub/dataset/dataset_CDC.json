@@ -1,0 +1,21 @@
+{
+    "name": "dataset_CDC",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adf_pro_data_lake",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "cdc.json",
+                "folderPath": "Monitor",
+                "fileSystem": "source"
+            }
+        },
+        "schema": {}
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
