@@ -1,0 +1,13 @@
+{
+    "name": "ds_database_source",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adf_pro_database",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

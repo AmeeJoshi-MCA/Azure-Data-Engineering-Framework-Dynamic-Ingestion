@@ -1,0 +1,25 @@
+{
+    "name": "ds_parquate_sink",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adf_pro_data_lake",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Parquet",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": {
+                    "value": "Orders_@{utcnow()}.parquet",
+                    "type": "Expression"
+                },
+                "folderPath": "Orders",
+                "fileSystem": "sink"
+            },
+            "compressionCodec": "snappy"
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

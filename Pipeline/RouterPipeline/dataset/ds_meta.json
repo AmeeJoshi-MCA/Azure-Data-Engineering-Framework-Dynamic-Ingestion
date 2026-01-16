@@ -1,0 +1,57 @@
+{
+    "name": "ds_meta",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_adf_pro_data_lake",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "Files",
+                "fileSystem": "source"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "customer_id",
+                "type": "String"
+            },
+            {
+                "name": "first_name",
+                "type": "String"
+            },
+            {
+                "name": "last_name",
+                "type": "String"
+            },
+            {
+                "name": "email",
+                "type": "String"
+            },
+            {
+                "name": "phone_number",
+                "type": "String"
+            },
+            {
+                "name": "city",
+                "type": "String"
+            },
+            {
+                "name": "signup_date",
+                "type": "String"
+            },
+            {
+                "name": "last_updated_timestamp",
+                "type": "String"
+            }
+        ]
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

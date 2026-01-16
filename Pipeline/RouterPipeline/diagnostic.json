@@ -1,0 +1,23 @@
+{
+    "now": "2026-01-16T14:00:51.396Z",
+    "perfNow": 20549441.799999982,
+    "diagnosticCorrelation": "9afab6e9-68db-499e-bb21-6b2095557198",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.121025.1",
+        "environmentType": 3,
+        "resourceName": "adf-pro-data-factory",
+        "resourceRegion": "eastus",
+        "resourceGroup": "ADF_PRO",
+        "subscriptionId": "6842eb80-0447-4d56-ae6a-298107fd959f",
+        "sessionId": "teqqzHCKDzegLu9FYSbia1",
+        "operationId": "",
+        "gitType": "GitHub",
+        "loggingKey": "02c399a4-386d-4ee5-b336-6ffeb2e6936a"
+    },
+    "additionalInfo": {
+        "selectedResource": "RouterPipeline",
+        "selectedResourceType": "pipeline"
+    }
+}
