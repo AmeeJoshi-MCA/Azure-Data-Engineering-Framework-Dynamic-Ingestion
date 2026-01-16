@@ -1,3 +1,11 @@
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue)
+![Azure Data Factory](https://img.shields.io/badge/Azure%20Data%20Factory-ADF-blue)
+![Data Engineering](https://img.shields.io/badge/Data%20Engineering-ETL%20%7C%20ELT-success)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub-black)
+![REST API](https://img.shields.io/badge/REST%20API-Ingestion-orange)
+![Status](https://img.shields.io/badge/Project-Production--Ready-brightgreen)
+
+
 # 🚀 Azure Data Factory Pro – Enterprise Data Ingestion Framework
 
 This repository represents a modular Azure Data Factory ingestion framework, where each module addresses a real-world data engineering scenario commonly found in enterprise data platforms.
